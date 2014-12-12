@@ -1,0 +1,19 @@
+body {
+  background-color: firebrick;
+  color: black;
+  font-size: 20px;
+
+}
+h1 {
+  text-align: center;
+  font-size: 4em;
+  
+}
+img {
+  height: 250px;
+  width: 250px;
+}
+.links {
+  text-align: center;
+  color: white;
+}

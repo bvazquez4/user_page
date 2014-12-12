@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+
+    <div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="<%= @user.img %>" alt="<%= @alt %> ">
+  </a>
+  <div class="media-body">
+    <h2 class="media-heading"><%= @user.name %></h2>
+    <p> <%= @user.bio %></p>
+    
+   </div>
+    </div>
+    <div class="links">
+    <button type="button" class="btn btn-default">
+      <a href="/userpage/<%= @user.id %>/destroy">delete</a></button>
+    <button type="button" class="btn btn-default">
+      <a href="/userpage/<%= @user.id %>/edit">edit</a></button>
+    </div>
+    </div>   
+</div>
